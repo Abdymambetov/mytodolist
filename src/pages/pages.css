@@ -1,0 +1,12 @@
+.myPage {
+    width: 100%;
+    height: 100%;
+}
+
+.myPage h1 {
+    border-top: 1px solid #3b4253;
+    font-size: 19px;
+    font-weight: 400;
+    color: #B9B9C3;
+    padding: 18px 0 18px 20px;
+}

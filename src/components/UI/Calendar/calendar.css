@@ -1,0 +1,133 @@
+.calendar {
+    position: absolute;
+    width: 266px;
+    height: 296px;
+    background: #161d31;
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+  }
+  
+  .grid .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 29px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 18px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .grid .grid-item:hover {
+    border: 1px solid #7367f0;
+    background-color: #283046;
+  }
+  
+  .grid .activeCalendar {
+    background-color: #7367f0;
+  }
+  
+  .grid .weekend {
+      color: #676D7D;
+  }
+  
+  .switch-calendar {
+      display: flex;
+      justify-content: space-between;
+      padding: 14px 9px;
+  }
+  
+  .time {
+      position: absolute;
+      width: 266px;
+      height: 42px;
+      background: #161d31;
+      top: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #676D7D;
+      border-radius: 5px;
+  }
+  .time input {
+      border: none;
+      text-align: center;
+      font-size: 14px;
+      width: 40px;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+  
+  
+  .hide {
+      visibility: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

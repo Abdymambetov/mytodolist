@@ -1,0 +1,150 @@
+.sideBar {
+    min-width: 190px;
+    height: 100%;
+    border-right: 1px solid#3B4253;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sideBar-btn {
+    background-color: #7367f0;
+    padding: 10px 23px 11px;
+    margin: 20px 0 0 0;
+    width: 146px;
+    color: #fff;
+    border-radius: 5px;
+    mask-type: alpha;
+    transition: all 0.2s ease;
+    border: 1px solid #7367f0;
+    cursor: pointer;
+  }
+  
+  .sideBar-btn:hover {
+      background-color: transparent;
+      color: #7367f0;
+      border: 1px solid #7367f0;
+  }
+  
+  .sideBar-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 44px;
+  }
+  
+  .sideBar-mytask {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .sideBar-items span {
+    margin-left: 14px;
+    color: #fff;
+  }
+  .sideBar-items svg {
+    fill: #bdbdbd;
+  }
+  
+  .sideBar .active span {
+    color: #9b51e0;
+  }
+  .sideBar .active svg {
+    fill: #9b51e0;
+  }
+  
+  .teg {
+    width: 100%;
+    margin: 20px 0 20px 44px;
+    font-size: 12px;
+    color: #b9b9c3;
+  }
+  
+  .sideBar-teg {
+    display: flex;
+    align-items: center;
+    width: 146px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .sideBar-teg .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 13px;
+  }
+  
+  .product .circle {
+    background-color: #7367f0;
+  }
+  .educ .circle {
+    background-color: #28c76f;
+  }
+  .healthy .circle {
+    background-color: #ff9f43;
+  }
+  .import .circle {
+    background-color: #ea5455;
+  }
+  
+  .sideBar-teg span {
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.1s ease;
+  }
+  
+  .sideBar-teg:hover span {
+      color: #828282;
+  }
+  
+  .choosen {
+    display: flex;
+    align-items: center;
+    border: 1px solid #9b51e0;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+  
+  @media (max-width: 1020px) {
+    .sideBar {
+      min-height: 70px;
+      max-height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding: 0 20px 0 0;
+    }
+  
+    .sideBar-btn {
+      margin: 0;
+    }
+    
+    .sideBar-items {
+      margin-left: 30px;
+    }
+    
+    .sideBar-mytask {
+      margin-top: 0;
+    }
+    
+    .teg {
+      width: 100%;
+      margin: 0 0 0 30px;
+    }
+    
+    .sideBar-teg {
+      display: flex;
+      align-items: center;
+      width: 146px;
+      margin: 0 0 0 30px;
+    }
+  }
+  
+  @media (max-width: 530px) {
+    .sideBar {
+      padding: 20px 20px 20px 20px;
+    }
+  }
